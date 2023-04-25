@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,300;0,500;1,200;1,600&family=Lobster&family=Rubik+Iso&display=swap');
+
+.todo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(128, 123, 123);
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.check-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.check-icon input {
+    width: 20px;
+    height: 20px;
+    color: blue;
+    border-radius: 50%;
+}
+.check-icon .icon {
+    font-size: 1.25rem;
+    color: red;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,300;0,500;1,200;1,600&family=Lobster&family=Rubik+Iso&display=swap');
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Kanit;
+}
+form button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: Kanit;
+    font-size: 1.3rem;
+}
